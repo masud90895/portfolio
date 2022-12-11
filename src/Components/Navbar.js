@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from "../assist/1.png"
 
 
 const Navbar = () => {
-    const [searchInput, setSearchInput] = useState(true);
     const [mdOptionsToggle, setMdOptionsToggle] = useState(true);
     const [showMenu, setShowMenu] = useState(false);
+    const location = useLocation();
     return (
         <div className=" fixed top-0 w-full z-50">
         <div>
@@ -18,13 +18,16 @@ const Navbar = () => {
                     <img className='w-[140px] h-[50px]' src={logo} alt="" />
                         <ul className="hidden w-8/12 md:flex items-center justify-end space-x-8">
                             <li>
-                                <a  href='#banner' className="  text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
+                                {
+                                    location.pathname === '/'? <a href="#banner">Home </a> : <Link  to={"/" || "#banner"} className="  text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
                                     Home
-                                </a>
+                                </Link>
+                                }
+                                
                             </li>
                             <li>
                                 <a  href='#advantage'  className="  text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
-                                    Advantage
+                                    Skill
                                 </a>
                             </li>
                             <li>
@@ -35,6 +38,11 @@ const Navbar = () => {
                             <li>
                                 <a href='#contact'  className="  text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
                                     Contact
+                                </a>
+                            </li>
+                            <li>
+                                <a href='#about'  className="  text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
+                                    About
                                 </a>
                             </li>
                         </ul>
@@ -79,12 +87,12 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <a   className="  flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800">
-                                Advantage
+                                Skill
                                 </a>
                             </li>
                             <li>
                                 <a   className="  flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800">
-                                    Education
+                                    about
                                     
                                 </a>
                             </li>

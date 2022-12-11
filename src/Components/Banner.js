@@ -14,12 +14,12 @@ const Banner = () => {
                             <h2 className="md:w-10/12 py-2 text-center md:text-left md:py-8 font-bold text-4xl">I'M <span className='text-[#ffb238]'>MD.MAHAFUJUR RAHAMAN MASUD</span></h2>
                             <p className='mb-9 md:w-9/12'>I'm a Bangladeshi based Full Stack Web Developers focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
                             <div className="flex md:w-8/12 justify-between ">
-                                <button className="hover:opacity-75 bg-[#ffb238] py-3 px-10 lg:py-3 lg:px-14 rounded-full text-black text-sm md:text-lg ">About Me</button>
+                                <a href="#about"><button  className="hover:opacity-75 bg-[#ffb238] py-3 px-10 lg:py-3 lg:px-14 rounded-full text-black text-sm md:text-lg ">About Me</button></a>
                                 <a href={pdf} className="hover:opacity-90 border-2 border-[#ffb238] hover:bg-[#ffb238] py-3 px-10 lg:py-3 lg:px-14 rounded-full  text-black text-sm md:text-lg " download>Resume</a>
                             </div>
                         </div>
                         <div className="">
-                            <img className="w-2/3 md:w-full mx-auto mt-3  rounded-full" src={image} alt='' />
+                            <img className="w-2/3 md:w-full mx-auto  mt-36 rounded-full" src={image} alt='' />
                         </div>
                     </div>
                 </div>

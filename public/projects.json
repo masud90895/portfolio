@@ -1,0 +1,71 @@
+[
+    {
+        "id" : 1,
+       "name" : "Resale-Go" ,
+       "img" : "https://i.ibb.co/gwpRWmq/resale-go.png",
+       "img1": "https://i.ibb.co/RBwH3b9/2022-12-11-21-22.png",
+       "img2": "https://i.ibb.co/g4f3bNc/2022-12-11-21-23.png",
+       "img3": "https://i.ibb.co/vmR5kLZ/2022-12-11-21-22-1.png",
+       "details": "This site build based on selling used (second-hand phone) with the ability to advertise a product.To Build This Project I used React, React router, Tailwind, sweet alert,firebase,MongoDB,React query, axios etc.This brand sells sustainably sourced second hand Phone through their website .This Site uses three types user, like : admin,seller & user/buyer.This project i using 2 type authentication, exe: 1.google & email-password.This project have dashboard route.dashboard are fully dynamic.This project also have Blog page.There we showings most important Question's.Etc",
+       "server": "https://github.com/masud90895/resale-go-server",
+       "client": "https://github.com/masud90895/resale-go-client",
+       "live": "https://aassinment12.web.app/",
+       "feature":[
+         "This site build based on selling used (second-hand phone) with the ability to advertise a product",
+         "To Build This Project I used React, React router, Tailwind, sweet alert,firebase,MongoDB,React query, axios etc.",
+         "This brand sells sustainably sourced second hand Phone through their website .",
+         "This Site uses three types user, like : admin,seller & user/buyer",
+         "This project's fully authenticated using firebase",
+         "This project i using 2 type authentication, exe: 1.google & email-password",
+         "This project have dashboard route.dashboard are fully dynamic",
+         "This project also have Blog page.There we showings most important Question's.Etc"
+      ],
+      "technologies":[
+         "React","React Router dom","MongoDB","Tailwind","react query","axios","Headless ui","firebase","react-hot-toast","react-icons","react-loader-spinner","react-text-animations","sweetalert2"
+      ]
+    },
+    {
+        "id" : 2,
+        "name" : "Eco Learning" ,
+        "img" : "https://i.ibb.co/HXc5HGq/eco-learning.png",
+       "img1": "https://i.ibb.co/B3p4ggs/2022-12-11-21-31.png",
+       "img2": "https://i.ibb.co/B356tsw/2022-12-11-21-31-1.png",
+       "img3": "https://i.ibb.co/7NrKh51/2022-12-11-21-30.png",
+        "details": "This site build based on learning related courses.To Build This Project I used React, React router, Tailwind, sweet alertfirebase,lottie,react-animated-text etc.Every courses have full detailed info.Here You Find Development related top courses & courses details.This project's fully authenticated using firebase.This project i using 3 type authentication, exe: 1.google,Github & email-password.This project also have Blog page.There we showings most important Question's.Etc",
+        "server": "https://github.com/masud90895/eco-learning-server-side",
+        "client": "https://github.com/masud90895/eco-learning-client-side",
+        "live": "https://eco-learning-9111b.web.app/",
+        "feature":[
+         "This site build based on learning related courses.",
+         "To Build This Project I used React, React router, Tailwind, sweet alertfirebase,lottie,react-animated-text etc.",
+         "Every courses have full detailed info.",
+         "Here You Find Development related top courses & courses details",
+         "This project's fully authenticated using firebase",
+         "This project i using 3 type authentication, exe: 1.google,Github & email-password",
+         "This project also have Blog page.There we showings most important Question's.Etc"
+        ],
+        "technologies":[
+         "React",
+         "React Router dom",
+         "Tailwind","Headless ui","firebase","react-animated-text-content","react-dark-mode-toggle","react-hot-toast","react-icons","react-loader-spinner","react-text-animations","react-to-pdf","sweetalert2"
+         ]
+     },
+     {
+        "id" : 3,
+        "name" : "Yummi-Homemade" ,
+        "img" : "https://i.ibb.co/DrmPf1Z/yummi-food.png",
+        "img1": "https://i.ibb.co/0fyCzT5/2022-12-11-21-39.png",
+       "img2": "https://i.ibb.co/KydMsMZ/2022-12-11-21-38.png",
+       "img3": "https://i.ibb.co/Y3bYyhF/2022-12-11-21-39-1.png",
+        "details": "This site build based on home made food delivery.To Build This Project I used React, React router, Tailwind, sweet alert,firebase,mongodb etc.We Provide Best meal delivery for unique recipes.This project's fully authenticated using firebase.Here You Find Food related top meal & meal details.This project i using 2 type authentication, exe: 1.google & email-password.This project have My Review Page.There You See your All Review.This project have Add Services Page.There You Add Food Services on Our Site.This project also have Blog page.There we showings most important Question's.Etc",
+        "server": "https://github.com/masud90895/Yammi-food-server",
+        "client": "https://github.com/masud90895/Yammi-food-client",
+        "live": "https://assinment11-c5915.web.app/",
+        "feature":[
+         "This site build based on home made food delivery.","To Build This Project I used React, React router, Tailwind, sweet alert,firebase,mongodb etc.","We Provide Best meal delivery for unique recipes.","This project's fully authenticated using firebase","Here You Find Food related top meal & meal details","This project i using 2 type authentication, exe: 1.google & email-password","This project have My Review Page.There You See your All Review","This project have Add Services Page.There You Add Food Services on Our Site","This project also have Blog page.There we showings most important Question's.Etc"
+        ],
+        "technologies":[
+         "react","React Router dom","Tailwind","Headless ui","Firebase","MongoDB","react-hot-toast","react-icon","react-loader-spinner","react-photo-view","sweetalert2"
+        ]
+     }
+]

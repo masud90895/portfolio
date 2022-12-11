@@ -1,21 +1,35 @@
+
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
-import Advertance from './Components/Advertance';
-import Banner from './Components/Banner';
-import Contact from './Components/Contact';
-import Education from './Components/Education';
-import Footer from './Components/Footer';
-import Navbar from './Components/Navbar';
-import Projects from './Components/Projects';
+import Home from './Components/Home';
+import ProjectDitailes from './Components/ProjectDitailes';
+import Main from './Layout/Main';
+
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path:"/",
+      element: <Main />,
+      children: [
+        {
+          path:"/",
+          element: <Home />
+        },
+        {
+          path:"project/:id",
+          loader : ({params})=>fetch(`https://server-masud90895.vercel.app/project/${params.id}`),
+          element: <ProjectDitailes/>
+        }
+      ]
+
+    }
+  ])
+
   return (
     <div className="App">
-      <Navbar/>
-      <Banner/>
-      <Advertance/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <RouterProvider router={router}/>  
     </div>
   );
 }
