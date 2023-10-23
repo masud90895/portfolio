@@ -6,23 +6,22 @@ import Home from './Components/Home';
 import ProjectDitailes from './Components/ProjectDitailes';
 import Main from './Layout/Main';
 
-// data
 
 
 function App() {
   const router = createBrowserRouter([
     {
-      path:"/",
+      path: "/",
       element: <Main />,
       children: [
         {
-          path:"/",
+          path: "/",
           element: <Home />
         },
         {
-          path:"project/:id",
-          loader : ({params})=>fetch(`https://server-masud90895.vercel.app/project/${params.id}`),
-          element: <ProjectDitailes/>
+          path: "project/:id",
+          loader: ({ params }) => fetch(`https://server-masud90895.vercel.app/project/${params.id}`),
+          element: <ProjectDitailes />
         }
       ]
 
@@ -31,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <RouterProvider router={router}/>  
+      <RouterProvider router={router} />
     </div>
   );
 }
