@@ -6,8 +6,6 @@ import Home from './Components/Home';
 import ProjectDitailes from './Components/ProjectDitailes';
 import Main from './Layout/Main';
 
-console.log("object");
-
 
 function App() {
   const router = createBrowserRouter([
